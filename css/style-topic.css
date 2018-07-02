@@ -1,0 +1,209 @@
+* {
+margin: 0;
+/*padding: 0;*/
+}
+html, body {
+height: 100%;
+}
+body {
+color: #393939;
+font-family: Arial;
+font-size: 12px;
+/*line-height: 0;*/
+/*background-color: #fff;*/
+background: #f0f0f0;
+}
+
+.container {
+
+width:950px;
+margin:auto;
+height:820px;
+/*border:1px #000 solid;*/
+
+
+}
+
+.top
+{
+margin:10px 10px 10px 10px;
+border:1px #000 solid;
+height:100px;
+background-color: #fff;
+
+}
+
+.left {
+
+margin:10px 10px 10px 10px;
+border:1px #a1a1a1 solid;
+height:500px;
+width:200px;
+float:left;
+background-color: #fff;
+}
+
+.middle{
+    margin-top:10px;
+    /*border:1px #000 solid;*/
+    width:715px;
+    height:680px;
+    float:left;
+}
+
+.profile-pic-container {
+
+width:100px;
+margin:auto;
+margin-top:10px;
+height:100px;
+border:1px #000 solid;
+
+
+}
+
+.left-menu {
+
+margin:auto;
+margin-top:10px;
+margin-left: 20px;
+
+
+}
+
+/* TOPIC CELL */
+.topic-title
+{
+    /*margin-left:20px;*/
+    font-size: 1.25em; /* 20px/16=1.25em */
+    font-family:"Times New Roman",Georgia,Serif;
+    font-weight:bold;
+    background-color: #fff;
+}
+
+.topic-cell { 
+	background-color: #fff;
+    /*margin-top:5px;*/
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+    margin-left:10px;
+    overflow-y:scroll;
+    float:left;
+	height:110px;
+	width:605px;
+}
+
+.topic-cell-no-height {
+    background-color: #fff;
+    /*margin-top:5px;*/
+    white-space: pre-wrap;      /* CSS3 */
+    white-space: -moz-pre-wrap; /* Firefox */
+    white-space: -pre-wrap;     /* Opera <7 */
+    white-space: -o-pre-wrap;   /* Opera 7 */
+    word-wrap: break-word;      /* IE */
+    margin-left:10px;
+    float:left;
+    min-height:110px;
+    width:605px;
+}
+
+.news-title
+{
+    margin-left:20px;
+    font-size: 1.25em; /* 20px/16=1.25em */
+	font-family:"Times New Roman",Georgia,Serif;
+	font-weight:bold;
+}
+
+.news-text { 
+    margin-top:10px;
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+    margin-left:20px;
+    overflow-y:scroll;
+    float:left;
+	height:135px;
+	width:430px
+}
+
+.news-more
+{
+    margin-left:20px;
+    float:left;
+    width:410px;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: 100;
+	display: block;
+    margin: 0 auto;
+}
+
+#members-icons img {
+margin-left:10px;
+margin-top:10px;
+}
+
+/* SCROLLBAR */
+#scroll::-webkit-scrollbar{
+width:8px;
+background-color:#cccccc;
+}
+#scroll::-webkit-scrollbar-thumb{
+background-color:#333333;
+}
+#scroll::-webkit-scrollbar-thumb:hover{
+background-color:#999999;
+border:1px solid #333333;
+}
+#scroll::-webkit-scrollbar-thumb:active{
+background-color:#666666;
+border:1px solid #333333;
+}
+#scroll::-webkit-scrollbar-track{
+border:1px gray solid;
+-webkit-box-shadow:0 0 2px gray inset;
+}
+
+/* Button */
+.btn {
+    background: #919496;
+    background-image: -webkit-linear-gradient(top, #919496, #6e7173);
+    background-image: -moz-linear-gradient(top, #919496, #6e7173);
+    background-image: -ms-linear-gradient(top, #919496, #6e7173);
+    background-image: -o-linear-gradient(top, #919496, #6e7173);
+    background-image: linear-gradient(to bottom, #919496, #6e7173);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 3px 20px 3px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #a8abad;
+    background-image: -webkit-linear-gradient(top, #a8abad, #787d80);
+    background-image: -moz-linear-gradient(top, #a8abad, #787d80);
+    background-image: -ms-linear-gradient(top, #a8abad, #787d80);
+    background-image: -o-linear-gradient(top, #a8abad, #787d80);
+    background-image: linear-gradient(to bottom, #a8abad, #787d80);
+    text-decoration: none;
+}
+
+.avatar {
+    width: 90%; /* or whatever is required */
+    text-align: center; /* ensures the image is always in the h-middle */
+    width:100px;
+    height:100px;
+    overflow: hidden; /* hide the cropped portion */
+}

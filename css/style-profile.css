@@ -1,0 +1,256 @@
+* {
+margin: 0;
+/*padding: 0;*/
+}
+html, body {
+height: 100%;
+}
+body {
+color: #393939;
+font-family: Arial;
+font-size: 12px;
+/*line-height: 0;*/
+/*background-color: #fff;*/
+background: #f0f0f0;
+}
+
+.container {
+
+width:950px;
+margin:auto;
+height:800px;
+/*border:1px #000 solid;*/
+
+
+}
+
+.top
+{
+margin:10px 10px 10px 10px;
+border:1px #000 solid;
+height:100px;
+background-color: #fff;
+
+}
+
+.left {
+
+margin:10px 10px 10px 10px;
+border:1px #a1a1a1 solid;
+height:500px;
+width:200px;
+float:left;
+background-color: #fff;
+}
+
+.right {
+
+margin:10px 10px 10px 10px;
+border:1px #000 solid;
+height:500px;
+width:200px;
+float:right;
+}
+
+.middle{
+margin-top:10px;
+border:1px #000 solid;
+width:500px;
+height:500px;
+float:left;
+}
+
+.footer {
+clear:both;
+margin:10px 10px 10px 10px;
+border:1px #000 solid;
+height:150px;
+
+}
+
+.middle-right{
+margin-top:10px;
+/*border:1px #000 solid;*/
+width:715px;
+height:650px;
+float:left;
+/*background-color: #fff;*/
+}
+
+.profile-pic-container {
+
+width:100px;
+margin:auto;
+margin-top:10px;
+height:100px;
+/*border:1px #000 solid;*/
+
+
+}
+
+.apron-pic-container {
+
+width:100px;
+margin:auto;
+margin-top:10px;
+height:100px;
+/*border:1px #000 solid;*/
+
+
+}
+
+.left-menu {
+
+margin:auto;
+margin-top:10px;
+margin-left: 20px;
+
+
+}
+
+/* ABOUT MEMBER */
+.about-member{
+border:1px #a1a1a1 solid;
+width:715px;
+height:250px;
+float:left;
+background-color: #fff;
+border-radius: 25px
+}
+
+.about-member-title
+{
+    margin-left:20px;
+    font-size: 1.25em; /* 20px/16=1.25em */
+	font-family:"Times New Roman",Georgia,Serif;
+	font-weight:bold;
+}
+
+.about-member-text { 
+    margin-top:5px;
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+    margin-left:20px;
+    overflow-y:scroll;
+    float:left;
+	height:200px;
+	width:695px;
+}
+
+/* USER WEB PAGE */
+.user-webpage{
+margin-top:10px;
+border:1px #a1a1a1 solid;
+width:715px;
+height:50px;
+float:left;
+background-color: #fff;
+border-radius: 25px
+}
+
+.user-webpage-title
+{
+    margin-left:20px;
+    font-size: 1.25em; /* 20px/16=1.25em */
+	font-family:"Times New Roman",Georgia,Serif;
+	font-weight:bold;
+}
+
+.user-webpage-text { 
+    margin-top:5px;
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+    margin-left:20px;
+    float:left;
+	height:50px;
+	width:695px;
+}
+
+/* USER SOCIAL NETWORKS */
+.user-social-networks{
+margin-top:10px;
+border:1px #a1a1a1 solid;
+width:715px;
+height:80px;
+float:left;
+background-color: #fff;
+border-radius: 25px
+}
+
+.user-social-networks-title
+{
+    margin-left:20px;
+    font-size: 1.25em; /* 20px/16=1.25em */
+	font-family:"Times New Roman",Georgia,Serif;
+	font-weight:bold;
+}
+
+.user-social-networks-contents { 
+    margin-top:5px;
+    margin-left:20px;
+    float:left;
+	height:50px;
+	width:695px;
+}
+
+/* USER MEDIA */
+.user-media{
+margin-top:10px;
+border:1px #a1a1a1 solid;
+width:715px;
+height:80px;
+float:left;
+background-color: #fff;
+border-radius: 25px
+}
+
+.user-media-title
+{
+    margin-left:20px;
+    font-size: 1.25em; /* 20px/16=1.25em */
+	font-family:"Times New Roman",Georgia,Serif;
+	font-weight:bold;
+}
+
+.user-media-contents { 
+    margin-top:5px;
+    margin-left:20px;
+    float:left;
+	height:50px;
+	width:695px;
+}
+
+#sn-icons img {
+margin-right:20px;
+}
+
+#media-icons img {
+margin-right:20px;
+}
+
+/* SCROLLBAR */
+#scroll::-webkit-scrollbar{
+width:8px;
+background-color:#cccccc;
+}
+#scroll::-webkit-scrollbar-thumb{
+background-color:#333333;
+}
+#scroll::-webkit-scrollbar-thumb:hover{
+background-color:#999999;
+border:1px solid #333333;
+}
+#scroll::-webkit-scrollbar-thumb:active{
+background-color:#666666;
+border:1px solid #333333;
+}
+#scroll::-webkit-scrollbar-track{
+border:1px gray solid;
+-webkit-box-shadow:0 0 2px gray inset;
+}

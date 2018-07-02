@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    /*padding: 0;*/
+}
+html, body {
+    height: 100%;
+}
+body {
+    color: #393939;
+    font-family: Arial;
+    font-size: 12px;
+    /*line-height: 0;*/
+    /*background-color: #fff;*/
+    background: #f0f0f0;
+}
+
+.container {
+
+    width:950px;
+    margin:auto;
+    height:800px;
+    /*border:1px #000 solid;*/
+
+
+}
+
+.top
+{
+    margin:10px 10px 10px 10px;
+    border:1px #000 solid;
+    height:100px;
+    background-color: #fff;
+
+}
+
+.left {
+
+    margin:10px 10px 10px 10px;
+    border:1px #a1a1a1 solid;
+    height:500px;
+    width:200px;
+    float:left;
+    background-color: #fff;
+}
+
+.right {
+
+    margin:10px 10px 10px 10px;
+    border:1px #000 solid;
+    height:500px;
+    width:200px;
+    float:right;
+}
+
+.middle{
+    margin-top:10px;
+    border:1px #000 solid;
+    width:500px;
+    height:500px;
+    float:left;
+}
+
+.footer {
+    clear:both;
+    margin:10px 10px 10px 10px;
+    border:1px #000 solid;
+    height:150px;
+
+}
+
+.middle-right{
+    margin-top:10px;
+    /*border:1px #000 solid;*/
+    width:715px;
+    height:650px;
+    float:left;
+    /*background-color: #fff;*/
+}
+
+.profile-pic-container {
+
+    width:100px;
+    margin:auto;
+    margin-top:10px;
+    height:100px;
+    border:1px #000 solid;
+
+
+}
+
+.apron-pic-container {
+
+    width:100px;
+    margin:auto;
+    margin-top:10px;
+    height:100px;
+    /*border:1px #000 solid;*/
+
+
+}
+
+.left-menu {
+
+    margin:auto;
+    margin-top:10px;
+    margin-left: 20px;
+
+
+}
+
+/* ABOUT MEMBER */
+.news-listing{
+    border:1px #a1a1a1 solid;
+    width:715px;
+    height:500px;
+    float:left;
+    background-color: #fff;
+    border-radius: 25px
+}
+
+.news-listing-title
+{
+    margin-left:20px;
+    font-size: 1.25em; /* 20px/16=1.25em */
+    font-family:"Times New Roman",Georgia,Serif;
+    font-weight:bold;
+}
+
+.news-listing-text {
+    margin-top:5px;
+    margin-left:20px;
+    float:left;
+    height:450px;
+    width:695px;
+}
+
+#sn-icons img {
+    margin-right:20px;
+}
+
+#media-icons img {
+    margin-right:20px;
+}
+
